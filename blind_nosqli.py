@@ -80,7 +80,7 @@ def main():
 	size = get_size_pass()
 	print("\n+------------------------+")
 	print("| Tamaño de password: " + str(size) + " |")
-	print("+------------------------+\n")
+	print("+------------------------+\n\n")
 	password = get_pass(size)
 	print(" [*] Password encontrada: '{}'. ".format(password))
 
